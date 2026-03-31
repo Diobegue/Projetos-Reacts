@@ -23,7 +23,7 @@ const InformationContainer = () => {
             <AiFillEnvironment id="location-icon" />
             <div>
                 <h3>Localização</h3>
-                <p>São Bernardo - Maranhão</p>
+                <p>São Bernardo - MA</p>
             </div>
         </div>
     </section>
