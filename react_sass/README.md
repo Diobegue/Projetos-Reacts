@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# Portfólio — Diobergue Viana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, tecnologias utilizadas, informações de contato e um resumo da minha trajetória como desenvolvedor full-stack.
 
-Currently, two official plugins are available:
+## Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Link do projeto:** https://github.com/Diobegue/Projetos-Reacts  
+**Status:** Em constante evolução.
 
-## React Compiler
+![alt text](/readme/2026-03-31_20-22.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Sobre o Projeto
 
-## Expanding the ESLint configuration
+O objetivo deste portfólio é apresentar de forma clara e profissional:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Uma seção sobre mim  
+- Tecnologias que utilizo  
+- Informações de contato  
+- Botão para download do currículo  
+- Layout moderno, escuro e responsivo
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tecnologias Utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- React
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Backend
+- Node.js
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Ferramentas
+- Git e GitHub
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Layout
+
+O design do portfólio inclui:
+
+- Sidebar com foto, redes sociais e dados de contato  
+- Área principal com seções "Sobre" e "Tecnologias"  
+- Tema dark com detalhes em roxo  
+- Cards exibindo cada tecnologia  
+- Interface limpa e responsiva
+
+## Estrutura do Projeto
