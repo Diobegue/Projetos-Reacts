@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# Portfólio 2 — Diobergue Viana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, tecnologias utilizadas, informações de contato e um resumo da minha trajetória como desenvolvedor full-stack.
 
-Currently, two official plugins are available:
+## Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Link do projeto:** https://github.com/Diobegue/Projetos-Reacts  
+**Status:** Em constante evolução.
 
-## Expanding the ESLint configuration
+![alt text](/react_sass/readme_imagens/2026-03-31_20-22.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Sobre o Projeto
 
-- Configure the top-level `parserOptions` property like this:
+O objetivo deste portfólio é apresentar de forma clara e profissional:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Uma seção sobre mim  
+- Tecnologias que utilizo  
+- Informações de contato  
+- Botão para download do currículo  
+- Layout moderno, escuro e responsivo
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tecnologias Utilizadas
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- React
+
+### Backend
+- Node.js
+
+### Ferramentas
+- Git e GitHub
+
+
+## Layout
+
+O design do portfólio inclui:
+- Sidebar com About, Skills e  Projects
+- Área principal com seçaõ " com uma foto "  
+- Uma seção " Com nome e area de trabalho "  
+- Interface limpa e responsiva
+
