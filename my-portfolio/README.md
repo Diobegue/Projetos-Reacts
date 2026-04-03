@@ -4,7 +4,7 @@ Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidade
 
 ## Demonstração
 
-**Link do projeto:** https://github.com/Diobegue/Projetos-Reacts  
+**Link do projeto:** https://github.com/Diobegue/Projetos-Reacts/tree/main/my-portfolio  
 **Status:** Em constante evolução.
 
 ![alt text](/react_sass/readme_imagens/.png)
