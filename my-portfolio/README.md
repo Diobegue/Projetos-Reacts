@@ -7,7 +7,7 @@ Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidade
 **Link do projeto:** https://github.com/Diobegue/Projetos-Reacts  
 **Status:** Em constante evolução.
 
-![alt text](/react_sass/readme_imagens/2026-03-31_20-22.png)
+![alt text](/react_sass/readme_imagens/.png)
 
 ## Sobre o Projeto
 
