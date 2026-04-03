@@ -1,11 +1,12 @@
+import Home from "./pages/Home/Home"
 
 
 const App = () => {
-  
+
+
   return (
     <>
-      <h1>diobergue test</h1>
-      
+      <Home />
     </>
   )
 }
